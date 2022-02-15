@@ -1,0 +1,312 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{tabularx}
+\usepackage{textcomp}
+\usepackage{longtable}
+\usepackage{url}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{titlesec}
+\usepackage{xifthen}
+% \usepackage{sectsty}
+% \usepackage{palatino}
+
+\definecolor{darkblue}{HTML}{07689f}
+\definecolor{darkred}{HTML}{931a25}
+
+\usepackage[colorlinks = true,
+           linkcolor = darkblue,
+           urlcolor  = darkblue,
+           citecolor = darkblue,
+           anchorcolor = darkblue]{hyperref}
+
+% \allsectionsfont{\sffamily}
+% \renewcommand{\familydefault}{\sfdefault}
+% \usepackage{libertine}
+% \usepackage{palatino}
+
+\titleformat{\section}{\normalfont\Large\bfseries}{\thesection}{1em}{}[{\titlerule[0.5pt]}]
+% \titleformat{\section}{\large\bfseries}{\thesection}{0.5em}{}[\titlerule]
+% \titlespacing{\subsection}{0pt}{-3ex}{4ex}
+
+\setlength{\titlewidth}{\textwidth}
+
+\newcommand{\link}[1]{[\href{#1}{\texttt{link}}]}
+\newcommand{\poster}[1]{[\href{#1}{\texttt{poster}}]}
+\newcommand{\preprint}[1]{[\href{#1}{\texttt{preprint}}]}
+\newcommand{\github}[1]{[\href{#1}{\texttt{github}}]}
+
+\begin{document}
+\begin{center}
+\textsc{\LARGE Kanishka Misra} \\
+\vspace{3mm}
+\textit{PhD candidate interested in Natural Language Understanding and Cognitive Science}\\
+% Department of Computer and Information Technology, Purdue University\\
+\textbf{Email:} \href{mailto:kmisra@purdue.edu}{\texttt{kmisra@purdue.edu}} \hspace{1em}
+\textbf{Website:} \url{https://kanishka.website/}\\
+\textbf{Last Updated:} \today
+\end{center}
+
+% \section*{Contact}
+% \begin{tabularx}{\textwidth}{@{}p{.1\textwidth} X}
+% % \textbf{Address:} & Department of CIT \\
+% % & University of Chicago \\
+% % & 1115 E. 58th Street \\
+% % & Chicago, IL 60637 \\
+% \textbf{Email:} & \texttt{kmisra@purdue.edu} \\
+% \textbf{Website:} & \url{https://kanishka.xyz/}\\
+% \end{tabularx}
+
+% \section*{Appointments}
+% \begin{tabularx}{\textwidth}{@{}p{.15\textwidth} X}
+% 2019--present & Assistant Professor, Dept.~of Linguistics, The University of Chicago \\
+% 2018--2019 & Research Assistant Professor, Toyota Technological Institute at Chicago
+% \end{tabularx}
+
+
+\section*{Education}
+\begin{tabularx}{\textwidth}{@{}p{\textwidth}l}
+\textbf{Purdue University, West Lafayette}\\
+Ph.D. in Natural Language Understanding, 2018--\textit{present}\\
+% Applied Knowledge Representation and Language Understanding (AKRaNLU) Lab\\
+Close collaboration with Allyson Ettinger (UChicago Linguistics)\\
+\textbf{Dissertation:} \textit{On Semantic Cognition, Inductive Generalization, and Language Models}\\
+% \textbf{Research Interests:} Concepts and categories in Language models, Lexical Semantics, Inductive Reasoning from Text, NLP Model evaluation.\\
+% With Certificate in Neuroscience and Cognitive Science \\
+\textbf{Advisor:} Julia Taylor Rayz\\\\
+% Dissertation: \emph{Relating lexical and syntactic processes in language: Bridging research in humans and machines.} \\\\
+\textbf{Purdue University, West Lafayette}\\
+M.S. in Natural Language Understanding, 2020, \textbf{GPA:} 4.0\\
+% With Certificate in Neuroscience and Cognitive Science \\
+\textbf{Thesis:}~\textit{Exploring Lexical Sensitivities in Word Prediction Models: A case study on BERT} [\href{https://hammer.figshare.com/articles/thesis/Exploring_Lexical_Sensitivities_in_Word_Prediction_Models_A_case_study_on_BERT/13308830}{\texttt{link}}]\\
+\textbf{Advisor:} Julia Taylor Rayz\\
+\textbf{Note:} Work performed alongside requirements for Ph.D.\\\\
+
+\textbf{Purdue University, West Lafayette}\\
+B.S. \textit{with distinction}. Computer Information Technology, 2014--2018, \textbf{GPA:} 3.72\\
+Minor in Statistics
+% \textbf{Advisor:} Julia Taylor Rayz\\\\
+\end{tabularx}
+
+\section*{Fellowships and Assistantships}
+\vspace{-.5em}
+\renewcommand*{\arraystretch}{1.5}
+\begin{tabularx}{\textwidth}{@{}p{.15\textwidth} X}
+2022--present & Purdue Graduate Student Mentoring Fellow. Selected to understand and improve the advising relationship between faculty and students at Purdue University. \textbf{Award:} \$5{,}000 in research and travel funds.\\
+2021--present & Research Assistantship funded through NSF EAGER Grant number 2039605. \textbf{Title:} \emph{AI-based Humor-integrated Social Engineering Training}. \textbf{Contribution:} Co-wrote the ``Technical Contribution'' section, and served as key personnel. \textbf{PI:} Julia Taylor Rayz, \textbf{Co-PI:} Ida B. Ngambeki \\
+2018--2019 & Purdue Research Foundation (PRF) Fellowship. \textbf{Title:} \textit{Computational Analysis of Online Predatory Texts}. \textbf{Contribution:} Wrote the grant in its entirety. \textbf{Mentor:} Julia Taylor Rayz.\\
+\end{tabularx}
+
+\section*{Peer-reviewed Publications}
+\vspace{-1.5em}
+\renewcommand*{\arraystretch}{1.5}
+\begin{longtable}{p{.05\textwidth}  p{.90\textwidth} }
+2022 & \textbf{Kanishka Misra}, Allyson Ettinger, Julia Taylor Rayz. A Property Induction Framework for Neural Language Models. \textit{(under review at CogSci 2022)}\\
+2022 & \textbf{Kanishka Misra}. On Semantic Cognition, Inductive Generalization, and Language Models. \textit{AAAI 2022 Doctoral Consortium}, Vancouver, Canada. \preprint{https://arxiv.org/abs/2111.02603}\\
+2021 & \textbf{Kanishka Misra}, Allyson Ettinger, Julia Taylor Rayz. Do Language Models learn typicality judgments from text? \textit{43rd Annual Conference of the Cognitive Science Society.} (\textbf{\textit{Oral Presentation}}; 14\% acceptance rate) \preprint{https://arxiv.org/abs/2105.02987}\\
+2021 & \textbf{Kanishka Misra}, Julia Taylor Rayz. Finding fuzziness in Neural Network models of Language Processing. \textit{Annual Meeting of the North American Fuzzy Information Processing Society 2021.} \textbf{(Honorable Mention for Best Student Paper)}. \preprint{http://kanishka.xyz/papers/nafips21.pdf}\\
+2020 & \textbf{Kanishka Misra}, Allyson Ettinger, Julia Taylor Rayz. Exploring BERT's Sensitivity to Lexical Cues using Tests from Semantic Priming. \textit{Findings of the Association for Computational Linguistics: EMNLP 2020}. 
+\link{http://dx.doi.org/10.18653/v1/2020.findings-emnlp.415}\\
+2020 & Qingyuan Hu, Yi Zhang, \textbf{Kanishka Misra}, Julia Taylor Rayz. Exploring Lexical Irregularities in Hypothesis-Only Models of Natural Language Inference.  \textit{2020 IEEE 19th International Conference on Cognitive Informatics \& Cognitive Computing (ICCI* CC)}. \link{https://arxiv.org/abs/2101.07397}\\
+2020 & \textbf{Kanishka Misra}, Julia Taylor Rayz. An Approximate Perspective on Word Prediction in Context: Ontological Semantics meets BERT. \textit{Annual meeting of the North American Fuzzy Information Processing Society 2020} \preprint{https://kanishka.xyz/papers/nafips.pdf}\\
+2019 & \textbf{Kanishka Misra}, Hemanth Devarapalli, Tatiana Ringenberg, Julia Taylor Rayz. Authorship Analysis of Online Predatory Conversations using Character Level Convolution Neural Networks. \textit{2019 IEEE International Conference on Systems, Man and Cybernetics (SMC).}, Bari, Italy. \link{https://doi.org/10.1109/SMC.2019.8914323}\\
+2019 & Tatiana Ringenberg, \textbf{Kanishka Misra}, Julia Taylor Rayz. Not So Cute but Fuzzy: Estimating Risk of Sexual Predation in Online Conversations. \textit{2019 IEEE International Conference on Systems, Man and Cybernetics (SMC).}, Bari, Italy. \textbf{(joint first author)} \link{https://doi.org/10.1109/SMC.2019.8914528}\\
+2019 & Qiaofei Ye, \textbf{Kanishka Misra}, Hemanth Devarapalli, Julia Taylor Rayz. A Sentiment Based Non-Factoid Question-Answering Framework. \textit{2019 IEEE International Conference on Systems, Man and Cybernetics (SMC).}, Bari, Italy. \link{https://doi.org/10.1109/SMC.2019.8913898}\\
+2019 & \textbf{Kanishka Misra}, Hemanth Devarapalli, Julia Taylor Rayz. Measuring the Influence of L1 on Learner English Errors in Content Words within Word Embedding Models. \textit{17th International Conference on Cognitive Modelling 2019}., Montréal, Canada. \link{https://kanishka.xyz/papers/iccm.pdf}\\
+2019 & Tatiana Ringenberg, \textbf{Kanishka Misra}, Kathryn C. Seigfried-Spellar, Julia Taylor Rayz. Exploring Automatic Identification of Fantasy-Driven and Contact-Driven Sexual Solicitors. \textit{2019 Third IEEE International Conference on Robotic Computing (IRC).}, Naples, Italy. \link{https://doi.org/10.1109/IRC.2019.00110}\\
+2019 & Kathryn C Seigfried-Spellar, Marcus K Rogers, Julia T Rayz, Shih-Feng Yang, \textbf{Kanishka Misra}, Tatiana Ringenberg. Chat analysis triage tool: Differentiating contact-driven vs.~fantasy-driven child sex offenders. \textit{Forensic Science International, 2019}. \link{https://doi.org/https://doi.org/10.1016/j.forsciint.2019.02.028}
+\end{longtable}
+
+% \section*{Peer-reviewed Thesis Proposals and Abstracts}
+\section*{Peer-reviewed Abstracts}
+\vspace{-1.5em}
+% \textbf{Thesis Proposals}
+% \renewcommand*{\arraystretch}{1.5}
+% \begin{longtable}{p{.05\textwidth}  p{.90\textwidth} }
+% 2021 & \textbf{Kanishka Misra}. On Semantic Cognition, Inductive Generalization, and Language Models. \textit{AAAI 2022 Doctoral Consortium}, Vancouver, Canada. \preprint{https://arxiv.org/abs/2111.02603}
+% \end{longtable}
+% \noindent
+% \textbf{Abtracts}
+\begin{longtable}{p{.05\textwidth}  p{.90\textwidth} }
+2020 & \textbf{Kanishka Misra}, Allyson Ettinger, Julia Taylor Rayz. Exploring BERT's lexical relations using Semantic Priming. \textit{CogSci 2020} \poster{https://kanishka.xyz/posters/cogsci20.pdf} \link{https://cogsci.mindmodeling.org/2020/papers/0440/index.html}\\
+2019 & \textbf{Kanishka Misra}, Hemanth Devarapalli, Julia Taylor Rayz.
+L1 Influence on Content Word errors in Learner English Corpora: Insights from Distributed Representation of Words. \textit{CogSci 2019}, Montréal, Canada. \poster{https://kanishka.xyz/posters/cogsci19.pdf} \link{https://cogsci.mindmodeling.org/2019/papers/0626/index.html}
+\end{longtable}
+
+% \section*{Presentations}
+% \vspace{-1em}
+% \begin{longtable}{p{.05\textwidth}  p{.95\textwidth} }
+% 2020 & (postponed due to COVID-19) \emph{``Understanding'' and prediction in language: perspectives from AI and human cognition.} Invited talk: University of California, Irvine Summer School on Computational Cognitive Modeling for Language, Irvine, CA.\\
+% \end{longtable}
+
+\section*{Honors and Awards}
+\vspace{-1.5em}
+\renewcommand*{\arraystretch}{1.5}
+\begin{longtable}{p{.05\textwidth}  p{.90\textwidth} }
+2022 & \textbf{Fellow}, \textit{Purdue Graduate Student Mentoring Fellows Program}. \textbf{Amount:} \$5{,}000 in research funds.\\
+2021 & \textbf{Honorable Mention for Best Student Paper}, \textit{North American Fuzzy Information Processing Society.} \textbf{Amount:} \$100.\\
+2019 & \textbf{Holistic Safety and Security Research Travel Grant}, \textit{Purdue Polytechnic Institute.} \textbf{Amount:} \$500.\\
+2019 & \textbf{CIT Research Travel Grant Award}, \textit{Purdue CIT.} \textbf{Amount:} \$1200 (CogSci 2019), \$600 (IEEE-SMC 2019).\\
+2019 & \textbf{Best HSS Poster Presentation}, \textit{CERIAS Symposium.} Award presented by committee on Holistic Safety and Security (HSS) research impact area. \link{https://polytechnic.purdue.edu/office-of-research/impact-areas/holistic-safety-and-security/cerias-poster-session}.\\
+2019 & \textbf{Conference Travel Award}, \textit{Chicago R Unconference}. \textbf{Amount:} \$150.\\
+2018 & \textbf{PRF Fellowship}, \textit{Purdue Research Foundation}. Covered two semesters worth of graduate school, in addition to stipend.\\
+2018 & \textbf{Best Poster Award - PPI}, \textit{Purdue Office of Undergraduate Research Expo.} \textbf{Amount:} \$250. \link{https://www.purdue.edu/undergrad-research/conferences/spring/archive/past-winners.php}\\
+2018 & \textbf{Research Scholarship}, \textit{Purdue Office of~Undergraduate Research.} \textbf{Amount:} \$500.\\
+2017 & \textbf{First Place}. \textit{Indy Civic Hackathon}. \textbf{Amount:} \$2000 split across 4 team members.
+\end{longtable}
+
+\renewcommand*{\arraystretch}{1}
+\section*{Teaching}
+\begin{tabularx}{\textwidth}{@{}p{.95\textwidth}l}
+\large \textbf{Teaching Assistant - \textit{Database Fundamentals} (CNIT 272)}\\
+\textbf{Timeline:} Fall 2019, Spring 2020, Fall 2020\\
+\textbf{Course Professor:} Dr. Dawn D. Laux\\
+Developed lecture videos and taught fundamentals of relational databases and \texttt{SQL} to \underline{three} lab sections ($\approx$ 70 students on average across three semesters).\\
+\textbf{Instructor Rating:} 4.8 (on average across three semesters)\\\\
+
+\large \textbf{Guest Lecturer - \textit{Natural Language Technologies} (CNIT 519)}\\
+\textbf{Timeline:} Fall 2019, Fall 2020, Spring 2022\\
+\textbf{Course Professor:} Dr. Julia Taylor Rayz\\
+- Two lectures on Neural Network models of Natural Language Processing\\
+- Developing two assignments on neural networks and language models.
+\end{tabularx}
+
+% \section*{Industry Experience}
+% \begin{tabularx}{\textwidth}{@{}p{.95\textwidth}l}
+% \large \textbf{Data Scientist Intern - \textit{Perscio.} Indianapolis}\\
+% \textbf{Timeline:} Fall 2019, Spring 2020, Fall 2020\\
+% \textbf{Course Professor:} Dr. Dawn D. Laux\\
+% Developed lecture videos and taught fundamentals of relational databases and \texttt{SQL} to \underline{three} lab sections ($\approx$ 70 students on average across three semesters).\\
+% \textbf{Instructor Rating:} 4.8 (on average across three semesters)\\\\
+
+% \large \textbf{Volunteer Lecturer - \textit{Natural Language Technologies} (CNIT 58101NLT)}\\
+% \textbf{Timeline:} Fall 2019, Fall 2020\\
+% \textbf{Course Professor:} Dr. Julia Taylor Rayz\\
+% - Two lectures on Neural Network models of Natural Language Processing\\
+% - Developing two assignments on neural networks and language models.
+% \end{tabularx}
+
+% \renewcommand*{\arraystretch}{1.5}
+
+\section*{Work Experience}
+\vspace{-1em}
+\begin{longtable}{p{.15\textwidth} p{.85\textwidth}}
+Summer 2021 & \begin{tabular}[c]{p{.80\textwidth}}\large\textbf{NLP Engineering/Research Intern - \textit{Pythonic AI}}\\Integrating Medical Knowledge into Language Models.\\
+\textbf{Host:} Baoqiang Cao, CTO and Co-founder.\end{tabular}\\\\
+Spring 2018 & \begin{tabular}[c]{p{.80\textwidth}}\large\textbf{Undergraduate Research Assistant - \textit{Purdue University}}\\Using Machine Learning models to estimate levels of contact offence through online chat conversations.\\Funded by Office of Undergraduate Research, Purdue University.\\
+\textbf{Mentor:} Julia Taylor Rayz.\end{tabular}\\\\
+Summer 2017 & \begin{tabular}[c]{p{.80\textwidth}}\large\textbf{Data Scientist Intern - \textit{Perscio}, Indianapolis, IN.}\\ Data Analysis on Healthcare Data.\\Collaboration with SPEA (at Indiana University) to work on Opioid Prescription Trends in Indiana.\\\textbf{Mentor:} Kent Hiller, CTO.\end{tabular}\\\\
+Spring 2017 & \begin{tabular}[c]{p{.80\textwidth}}\large\textbf{Undergraduate Research Assistant - \textit{Purdue University}}\\Using Statistical models to understand and predict deviant behavior in the cyberspace.\\
+    \textbf{Mentor:} Kathryn Seigfried-Spellar.\end{tabular}
+\end{longtable}
+
+\renewcommand*{\arraystretch}{1.5}
+
+\section*{Mentorship}
+\vspace{-1em}
+\begin{longtable}{p{.09\textwidth}  p{.86\textwidth} }
+    \textbf{2018-19} & John Phan (Undergraduate). \textbf{Topic:} \textit{Gender Bias in Word Embeddings}. Awarded NSF REU scholarship. \textbf{Outcome:} Two poster presentations.\\
+    % \textbf{2019} & Addison Farinas (Undergraduate). \textbf{Topic:} \textit{Analysis and Annotation of Humorous News Headlines.} \textbf{Outcome:} Humor dataset curation.\\
+    \textbf{2020} & Qingyuan ``Carol" Hu and Yi Zhang (Undergraduates). \textbf{Topic:} \textit{Exploring Lexical Irregularities in Hypothesis-only Models of Natural Language Inference.} \textbf{Outcome:} Publication in \textit{IEEE ICCC* CI 2020}, and a presentation at \textit{PURC 2020}, which was \underline{awarded second place} across all students from the Purdue Polytechnic Institute.
+    % \textbf{2021} & Sameer Rai Singhal and Priyen Shah (Undergraduates). \textbf{Topic:} \textit{Statistical correlates of World Knowledge in Language Models.}
+\end{longtable}
+
+\section*{Reviewing}
+% \textbf{\underline{Conference and Journals}}
+\vspace{-1em}
+\begin{longtable}{p{.15\textwidth}  p{.80\textwidth} }
+    \textbf{Primary} & CogSci (2020, 2021, 2022); CoNLL 2021; ACL Rolling Review 2021\\
+    \textbf{Secondary} & EMNLP 2020; IJCAI 2020; *SEM 2019; IEEE-IRC 2019.\\
+    \textbf{Book} & Chapman \& Hall/CRC Press Statistics Series (2020, 2021).
+\end{longtable}
+
+\section*{Service}
+\begin{itemize}
+    \item \textbf{Local Arrangements Chair}, \textit{Annual Meeting of the North American Fuzzy Information Processing Society 2021 (NAFIPS 2021) held at Purdue University.}
+    \item \textbf{Volunteer}, \textit{36th AAAI Conference on Artificial Intelligence}.
+    \item \textbf{Program Committee:} CoNLL 2021
+    \item \textbf{Graduate Student Advisor}, \textit{Purdue CIT Student Council}.
+    \item \textbf{Lab Management}: AKRaNLU lab, Purdue CIT.
+    \item \textbf{Organizer}, Undergraduate Research Panel, Purdue CIT.
+\end{itemize}
+% \begin{itemize}
+    % \begin{longtable}{p{.15\textwidth}  p{.85\textwidth} }
+    %     \textbf{Reviewing} & CogSci, EMNLP, CRC Press Statistics series, IJCAI, *SEM, IEEE-IRC\\
+    %     \textbf{Admin}
+    % \end{longtable}
+% \end{itemize}
+
+\renewcommand*{\arraystretch}{1}
+\section*{Skills}
+\vspace{-1em}
+\begin{longtable}{p{.25\textwidth}  p{.80\textwidth} }
+    \textbf{Programming} & R (expert), Python (expert), SQL (proficient), \LaTeX\\
+    \textbf{Libraries} & pytorch, tidyverse(R), tidymodels(R), tensorflow, Rcpp, gensim\\
+    \textbf{Statistics} & Probability Theory, GLMs, LMEMs, Bayesian Models\\
+    \textbf{Natural~Languages} & English, Hindi, Gujarati, Odiya
+    \end{longtable}
+% \textbf{\underline{Software Developed}}
+\section*{Software Developed}
+\paragraph{\href{https://pypi.org/project/minicons/}{\texttt{minicons}}} A toolkit to facilitate behavioral and representational analyses of transformer-based language processing models. \github{https://github.com/kanishkamisra/minicons}
+% \begin{itemize}
+% \item \textbf{Languages}: Python (proficient), R (proficient), \LaTeX
+% \item \textbf{Web Technologies}: HTML, CSS, Javascript (some experience).
+% \end{itemize}
+
+
+% \section*{Natural Languages}
+% \begin{itemize}
+% \item \textbf{English}: native
+% \item \textbf{Mandarin Chinese}: fluent
+% \item \textbf{Spanish}: proficient
+% \item \textbf{French, German, Modern Standard Arabic}: reading / communicative knowledge
+% \end{itemize}
+
+% \section*{Honors and Awards}
+% \begin{itemize}
+% \item Best Proposal Award, Workshop on Evaluating Vector Space Representations for NLP, Association for Computational Linguistics (ACL) Annual Meeting 2016
+% \item National Science Foundation Graduate Research Fellowship recipient, 2014
+% \item Member Phi Beta Kappa Academic Honor Society, Brandeis University Chapter
+% \item Justice Louis D. Brandeis full-tuition scholarship, Brandeis University, 2006-2010
+% \item National Presidential Scholar, U.S. Presidential Scholars Program, 2006
+% \end{itemize}
+
+\section*{Professional Affiliations}
+\begin{itemize}
+    \item Association of Computational Linguistics (ACL)
+    \item Cognitive Science Society (CogSci)
+    \item Institute of Electrical and Electronic Engineers (IEEE)
+    \item Center for Education and Research in Information Assurance and Security (CERIAS)
+    \item Society for Mathematical Psychology (MathPsych)
+\end{itemize}
+
+\section*{References}
+\textbf{NLP Research:} Dr. Julia Taylor Rayz, Dr. Allyson Ettinger, Dr. Victor Raskin\\
+\textbf{Teaching:} Dr. Dawn Laux\\
+\textbf{Industry:} Dr. Baoqiang Cao, Matt Younkle, Kent Hiller, Bob Boehnlein
+
+% \section*{Teaching}
+
+% \begin{itemize}
+
+% \item \textbf{Computational Linguistics I} 
+% \begin{itemize}
+% \item Interdisciplinary, mixed undergraduate/graduate level course in computational cognitive modeling and natural language processing (cross-listed in linguistics and computer science)
+% \end{itemize}
+% \item \textbf{Computational Linguistics II} 
+% \begin{itemize}
+% \item Advanced continuation of Computational Linguistics I 
+% \end{itemize}
+% \item \textbf{Seminar in Computational Linguistics}
+% \begin{itemize}
+% \item Graduate seminar course focusing examining approaches to meaning in computational linguistics---particularly efforts to capture meaning and ``understanding'' in artificial intelligence
+% \end{itemize}
+% \item \textbf{Meaning in Language: Brains and Machines}
+% \begin{itemize}
+% \item Interdisciplinary seminar course for advanced undergraduate students from computer science and linguistics (University of Maryland)
+% \end{itemize}
+% \end{itemize}
+
+
+
+\end{document}
