@@ -8,20 +8,25 @@
 \usepackage[dvipsnames]{xcolor}
 \usepackage{titlesec}
 \usepackage{xifthen}
+% \usepackage[sfdefault]{classico}
+\usepackage[T1]{fontenc}
 % \usepackage{sectsty}
-\usepackage{palatino}
+% \usepackage{palatino}
 \usepackage{times}
 \usepackage{inconsolata}
 
 \definecolor{darkblue}{HTML}{07689f}
 \definecolor{darkred}{HTML}{931a25}
-\definecolor{award}{HTML}{FFB84C}
+\definecolor{award}{HTML}{C71585}
+\definecolor{paperlink}{HTML}{734F96}
+% \definecolor{award}{HTML}{c51b8a}
+% \definecolor{award}{HTML}{DD5746}
 
 \usepackage[colorlinks = true,
-           linkcolor = darkblue,
-           urlcolor  = darkblue,
-           citecolor = darkblue,
-           anchorcolor = darkblue]{hyperref}
+           linkcolor = MidnightBlue,
+           urlcolor  = Periwinkle,
+           citecolor = MidnightBlue,
+           anchorcolor = MidnightBlue]{hyperref}
 
 % \allsectionsfont{\sffamily}
 % \renewcommand{\familydefault}{\sfdefault}
@@ -42,10 +47,11 @@
 \begin{document}
 \begin{center}
 \textsc{\LARGE Kanishka Misra} \\
-\vspace{3mm}
-\textit{PhD candidate interested in Natural Language Understanding and Cognitive Science}\\
+% \vspace{3mm}
+% \textit{PhD candidate interested in Natural Language Understanding and Cognitive Science}\\
 % Department of Computer and Information Technology, Purdue University\\
-\textbf{Email:} \href{mailto:kmisra@purdue.edu}{\texttt{kmisra@purdue.edu}} \hspace{1em}
+\vspace{0.5em}
+\textbf{Email:} \href{mailto:kanishka@ttic.edu}{\texttt{kanishka@ttic.edu}} \hspace{1em}
 \textbf{Website:} \url{https://kanishka.website/}\\
 \textbf{Last Updated:} \today
 \end{center}
@@ -65,28 +71,47 @@
 % 2019--present & Assistant Professor, Dept.~of Linguistics, The University of Chicago \\
 % 2018--2019 & Research Assistant Professor, Toyota Technological Institute at Chicago
 % \end{tabularx}
+%--
+% \section*{Appointments}
+% \begin{tabularx}{\textwidth}{@{}p{.15\textwidth} X}
+% 2023--present & \textbf{Postdoctoral Research Scholar}
+% \end{tabularx}
+\section*{Academic Positions}
+\vspace{-1em}
+\begin{longtable}{p{.15\textwidth} p{.85\textwidth}}
+2024--current & \begin{tabular}[c]{p{.80\textwidth}}
+    \textbf{Toyota Technological Institute at Chicago}\\
+    Research Assistant Professor\\\textit{Endowed research faculty position for up to 3 years}
+\end{tabular}\\\\
+2023--2024 & \begin{tabular}[c]{p{.80\textwidth}}
+    \textbf{The University of Texas at Austin}\\
+    Postdoctoral Research Fellow, Department of Linguistics\\
+    \textbf{Advisor:} Dr. Kyle Mahowald
+\end{tabular}
+\end{longtable}
+
 
 
 \section*{Education}
 \begin{tabularx}{\textwidth}{@{}p{\textwidth}l}
-\textbf{Purdue University, West Lafayette}\\
-Ph.D. in Computer Information Technology, 2018--2023 (expected)\\
+\textbf{Purdue University}, West Lafayette, USA\\
+Ph.D. in Computer Information Technology, 2018--2023\\
 % Applied Knowledge Representation and Language Understanding (AKRaNLU) Lab\\
 % Close collaboration with Allyson Ettinger (UChicago Linguistics)\\
-\textbf{Dissertation:} \textit{On Semantic Cognition, Inductive Generalization, and Language Models}\\
+\textbf{Dissertation:} \href{https://hammer.purdue.edu/articles/thesis/On_Semantic_Cognition_Inductive_Generalization_and_Language_Models/24084816}{\textit{On Semantic Cognition, Inductive Generalization, and Language Models}}\\
 % \textbf{Research Interests:} Concepts and categories in Language models, Lexical Semantics, Inductive Reasoning from Text, NLP Model evaluation.\\
 % With Certificate in Neuroscience and Cognitive Science \\
-\textbf{Advisor:} Julia Taylor Rayz\\
+\textbf{Advisor:} Dr. Julia Taylor Rayz\\
 \textbf{Committee:} Dr. Allyson Ettinger, Dr. Victor Raskin, Dr. Jin Wei Kocsis, Dr. John Springer\\\\
 % Dissertation: \emph{Relating lexical and syntactic processes in language: Bridging research in humans and machines.} \\\\
-\textbf{Purdue University, West Lafayette}\\
+\textbf{Purdue University}, West Lafayette, USA\\
 M.S. in Computer Information Technology, 2020\\
 % With Certificate in Neuroscience and Cognitive Science \\
-\textbf{Thesis:}~\textit{Exploring Lexical Sensitivities in Word Prediction Models: A case study on BERT} [\href{https://hammer.figshare.com/articles/thesis/Exploring_Lexical_Sensitivities_in_Word_Prediction_Models_A_case_study_on_BERT/13308830}{\texttt{link}}]\\
-\textbf{Advisor:} Julia Taylor Rayz\\
+\textbf{Thesis:}~\href{https://hammer.figshare.com/articles/thesis/Exploring_Lexical_Sensitivities_in_Word_Prediction_Models_A_case_study_on_BERT/13308830}{\textit{Exploring Lexical Sensitivities in Word Prediction Models: A case study on BERT}}\\
+\textbf{Advisor:} Dr. Julia Taylor Rayz\\
 \textbf{Note:} Work performed alongside requirements for Ph.D.\\\\
 
-\textbf{Purdue University, West Lafayette}\\
+\textbf{Purdue University}, West Lafayette, USA\\
 B.S. \textit{with distinction}. Computer Information Technology, 2014--2018\\
 Minor in Statistics
 % \textbf{Advisor:} Julia Taylor Rayz\\\\
@@ -96,7 +121,7 @@ Minor in Statistics
 \vspace{-.5em}
 \renewcommand*{\arraystretch}{1.5}
 \begin{tabularx}{\textwidth}{@{}p{.15\textwidth} X}
-2023--2024 & \textbf{Bilsland Fellowship}. Dissertation Fellowship awarded by Purdue University.\\
+2023 & \textbf{Bilsland Fellowship}. Dissertation Fellowship awarded by Purdue University.\\
 2022--2023 & \textbf{Purdue Graduate Student Mentoring Fellowship}. Selected to understand and improve the advising relationship between faculty and students at Purdue University. \textbf{Award:} \$5{,}000 in research and travel funds.\\
 2021--2022 & \textbf{Research Assistantship} funded through NSF EAGER Grant number 2039605. \textbf{Title:} \emph{AI-based Humor-integrated Social Engineering Training}. \textbf{Contribution:} Co-wrote the ``Technical Contribution'' section, and served as key personnel. \textbf{PI:} Julia Taylor Rayz, \textbf{Co-PI:} Ida B. Ngambeki \\
 2018--2019 & \textbf{Purdue Research Foundation (PRF) Fellowship.} \textbf{Title:} \textit{Computational Analysis of Online Predatory Texts}. \textbf{Contribution:} Wrote the proposal in its entirety. \textbf{Mentor:} Julia Taylor Rayz.\\
@@ -107,12 +132,12 @@ Minor in Statistics
 \vspace{-1em}
 \begin{longtable}{p{.15\textwidth} p{.85\textwidth}}
 Fall 2022 & \begin{tabular}[c]{p{.80\textwidth}}
-    \large\textbf{Google Research - \textit{Research Intern}}\\
+    \textbf{Google Research - \textit{Research Intern}}\\
     \textbf{Project:} Triggering Multi-Hop Reasoning in LLMs with Soft-prompts.\\
     \textbf{Host(s):} Siamak Shakeri and Cicero Nogueira dos Santos.
 \end{tabular}\\\\
 Summer 2021 & \begin{tabular}[c]{p{.80\textwidth}}
-    \large\textbf{Pythonic AI - \textit{NLP Engineering/Research Intern}}\\
+    \textbf{Pythonic AI - \textit{NLP Engineering/Research Intern}}\\
     \textbf{Project:} Integrating Biomedical Commonsense into Language Models.\\
     \textbf{Host:} Baoqiang Cao, CTO and Co-founder.
 \end{tabular}
@@ -128,42 +153,68 @@ Summer 2021 & \begin{tabular}[c]{p{.80\textwidth}}
 \renewcommand*{\arraystretch}{1.5}
 \begin{longtable}{p{.05\textwidth}  p{.90\textwidth} }
 % 2022 & \textbf{Kanishka Misra}, Julia Taylor Rayz, Allyson Ettinger. Lack of Coverage in Semantic Property Norms: Implications for Distributional Word Representations and Language Models. \textit{In preparation}.
-2023 & \textbf{Kanishka Misra} and Najoung Kim. On Lexical Category Abstraction in Pre-trained Language Models. \textit{Work in Progress}.\\
-2023 & Mourad Heddaya, \textbf{Kanishka Misra}, and Allyson Ettinger. On Meaning and Prediction in Language Models and Humans. \textit{Work in Progress}.\\
-2022 & \textbf{Kanishka Misra}. \texttt{minicons}: Enabling Flexible Behavioral and Representational Analyses of Transformer Language Models. Demo Paper. \preprint{https://arxiv.org/abs/2203.13112}
+2024 & \textbf{Kanishka Misra}. On generalization from indirect evidence in language models, a reply to Oba et al (2024). \textit{In progress}.\\
+
+2024 & Juan Diego Rodriguez, Aaron Mueller, \textbf{Kanishka Misra}. \href{https://arxiv.org/abs/2410.22590}{Characterizing the Role of Similarity in the Property Inferences of Language Models}. \textit{Under Review}.\\
+
+2024 & \textbf{Kanishka Misra} and Najoung Kim. \href{https://arxiv.org/abs/2408.05086}{Generating novel experimental hypotheses from language models: A case study on cross-dative generalization.} \textit{Under Review}.\\
+
+2022 & \textbf{Kanishka Misra}. \href{https://arxiv.org/abs/2203.13112}{\texttt{minicons}: Enabling Flexible Behavioral and Representational Analyses of Transformer Language Models}. Software Paper. \textit{Preprint/Demo}.
 \end{longtable}
 
 \section*{Peer-reviewed Publications}
 \vspace{-1.5em}
 \renewcommand*{\arraystretch}{1.5}
 \begin{longtable}{p{.05\textwidth}  p{.90\textwidth} }
-2023 & \textbf{Kanishka Misra}, Cicero Nogueira dos Santos, Siamak Shakeri. Triggering Multi-hop reasoning in language models using soft-prompts and random walks. \textit{Findings of ACL 2023}\\
-2023 & Koustuv Sinha, Jon Gauthier, Aaron Mueller, \textbf{Kanishka Misra}, Keren Fuentes, Roger Levy, Adina Williams. Language model acceptability judgments are not always robust to context. \textit{ACL 2023}. \textcolor{ForestGreen}{\textbf{Recipient of Outstanding Paper Award}}.\\
-2023 & Freda Shi, Xinyun Chen, \textbf{Kanishka Misra}, David Dohan, Ed Chi, Nathan Scharli, Denny Zhou. Large Language Models Can Be Easily Distracted by Irrelevant Context. \textit{ICML 2023}.\\
-2023 & \textbf{Kanishka Misra}, Julia Taylor Rayz, Allyson Ettinger. \textsc{comps}: Conceptual Minimal Pair Sentences for Testing Robust Property Knowledge and its Inheritance in Pre-trained Language Models. \textit{EACL 2023}. \textbf{\textcolor{ForestGreen}{Recipient of Best Paper Award}}.\\
-2022 & \textbf{Kanishka Misra}, Julia Taylor Rayz, Allyson Ettinger. A Property Induction Framework for Neural Language Models. \textit{44th Annual Conference of the Cognitive Science Society}.\\
-2022 & \textbf{Kanishka Misra}, Julia Taylor Rayz. LMs Go Phishing: Adapting Pre-trained Language Models to Detect Phishing Emails. \textit{IEEE/ACM Web Intelligence Conference}.\\
-2022 & \textbf{Kanishka Misra}. On Semantic Cognition, Inductive Generalization, and Language Models. \textit{AAAI 2022 Doctoral Consortium}, Vancouver, Canada. \preprint{https://arxiv.org/abs/2111.02603}\\
-2021 & \textbf{Kanishka Misra}, Allyson Ettinger, Julia Taylor Rayz. Do Language Models learn typicality judgments from text? \textit{43rd Annual Conference of the Cognitive Science Society.} \preprint{https://arxiv.org/abs/2105.02987}\\
-2021 & \textbf{Kanishka Misra}, Julia Taylor Rayz. Finding fuzziness in Neural Network models of Language Processing. \textit{Annual Meeting of the North American Fuzzy Information Processing Society 2021.} \preprint{http://kanishka.website/papers/nafips21.pdf} \textcolor{ForestGreen}{\textbf{Honorable Mention for Best Student Paper}}.\\
-2020 & \textbf{Kanishka Misra}, Allyson Ettinger, Julia Taylor Rayz. Exploring BERT's Sensitivity to Lexical Cues using Tests from Semantic Priming. \textit{Findings of the Association for Computational Linguistics: EMNLP 2020}. 
-\link{http://dx.doi.org/10.18653/v1/2020.findings-emnlp.415}\\
-2020 & Qingyuan Hu, Yi Zhang, \textbf{Kanishka Misra}, Julia Taylor Rayz. Exploring Lexical Irregularities in Hypothesis-Only Models of Natural Language Inference.  \textit{2020 IEEE 19th International Conference on Cognitive Informatics \& Cognitive Computing (ICCI* CC)}. \link{https://arxiv.org/abs/2101.07397}\\
-2020 & \textbf{Kanishka Misra}, Julia Taylor Rayz. An Approximate Perspective on Word Prediction in Context: Ontological Semantics meets BERT. \textit{Annual meeting of the North American Fuzzy Information Processing Society 2020}. Online. \preprint{https://kanishka.website/papers/nafips.pdf}\\
-2019 & \textbf{Kanishka Misra}, Hemanth Devarapalli, Tatiana Ringenberg, Julia Taylor Rayz. Authorship Analysis of Online Predatory Conversations using Character Level Convolution Neural Networks. \textit{2019 IEEE International Conference on Systems, Man and Cybernetics (SMC).}, Bari, Italy. \link{https://doi.org/10.1109/SMC.2019.8914323}\\
-2019 & Tatiana Ringenberg, \textbf{Kanishka Misra}, Julia Taylor Rayz. Not So Cute but Fuzzy: Estimating Risk of Sexual Predation in Online Conversations. \textit{2019 IEEE International Conference on Systems, Man and Cybernetics (SMC).}, Bari, Italy. \textbf{(joint first author)} \link{https://doi.org/10.1109/SMC.2019.8914528}\\
-2019 & Qiaofei Ye, \textbf{Kanishka Misra}, Hemanth Devarapalli, Julia Taylor Rayz. A Sentiment Based Non-Factoid Question-Answering Framework. \textit{2019 IEEE International Conference on Systems, Man and Cybernetics (SMC).}, Bari, Italy. \link{https://doi.org/10.1109/SMC.2019.8913898}\\
-2019 & \textbf{Kanishka Misra}, Hemanth Devarapalli, Julia Taylor Rayz. Measuring the Influence of L1 on Learner English Errors in Content Words within Word Embedding Models. \textit{17th International Conference on Cognitive Modelling 2019}., Montréal, Canada. \link{https://kanishka.xyz/papers/iccm.pdf}\\
-2019 & Tatiana Ringenberg, \textbf{Kanishka Misra}, Kathryn C. Seigfried-Spellar, Julia Taylor Rayz. Exploring Automatic Identification of Fantasy-Driven and Contact-Driven Sexual Solicitors. \textit{2019 Third IEEE International Conference on Robotic Computing (IRC).}, Naples, Italy. \link{https://doi.org/10.1109/IRC.2019.00110}\\
-2019 & Kathryn C. Seigfried-Spellar, Marcus K Rogers, Julia T Rayz, Shih-Feng Yang, \textbf{Kanishka Misra}, Tatiana Ringenberg. Chat analysis triage tool: Differentiating contact-driven vs.~fantasy-driven child sex offenders. \textit{Forensic Science International, 2019}. \link{https://doi.org/https://doi.org/10.1016/j.forsciint.2019.02.028}
+
+2024 & \textbf{Kanishka Misra}, Allyson Ettinger, and Kyle Mahowald. \href{https://arxiv.org/abs/2401.06640v1}{Experimental Contexts Can Facilitate Robust Semantic Property Inference in Language Models, but Inconsistently}. \textit{EMNLP 2024.}\\
+
+2024 & \textbf{Kanishka Misra} and Kyle Mahowald. \href{https://arxiv.org/abs/2403.19827}{Language Models Learn Rare Phenomena from Less Rare Phenomena: The Case of the Missing AANNs}. \textit{EMNLP 2024}. \textcolor{award}{\textbf{Outstanding Paper Award (Top 0.4\%)}}.\\
+
+2023 & \textbf{Kanishka Misra}, Cicero Nogueira dos Santos, Siamak Shakeri. \href{https://aclanthology.org/2023.findings-acl.62/}{Triggering Multi-hop reasoning in language models using soft-prompts and random walks.} \textit{Findings of ACL 2023}\\
+
+2023 & Koustuv Sinha$^{*}$, Jon Gauthier$^{*}$, Aaron Mueller$^{\dagger}$, \textbf{Kanishka Misra}$^{\dagger}$, Keren Fuentes, Roger Levy, Adina Williams. \href{https://aclanthology.org/2023.acl-long.333/}{Language model acceptability judgments are not always robust to context}. \textit{ACL 2023}. \textcolor{award}{\textbf{Recipient of an Outstanding Paper Award (Top 1\%)}}.$^{*,\dagger}$: Equal Contribution\\
+
+2023 & Freda Shi$^{*}$, Xinyun Chen$^{*}$, \textbf{Kanishka Misra}, David Dohan, Ed Chi, Nathan Scharli, Denny Zhou. \href{https://proceedings.mlr.press/v202/shi23a.html}{Large Language Models Can Be Easily Distracted by Irrelevant Context}. \textit{ICML 2023}. $^{*}$: Equal Contribution\\
+
+2023 & \textbf{Kanishka Misra}, Julia Taylor Rayz, Allyson Ettinger. \href{https://aclanthology.org/2023.eacl-main.213}{\textsc{comps}: Conceptual Minimal Pair Sentences for Testing Robust Property Knowledge and its Inheritance in Pre-trained Language Models}. \textit{EACL 2023}. \textbf{\textcolor{award}{Recipient of Best Paper Award (Top 0.1\%)}}.\\
+
+2022 & \textbf{Kanishka Misra}, Julia Taylor Rayz, Allyson Ettinger. \href{https://escholarship.org/uc/item/6170h6nj}{A Property Induction Framework for Neural Language Models}. \textit{44th Annual Conference of the Cognitive Science Society}.\\
+
+2022 & \textbf{Kanishka Misra}, Julia Taylor Rayz. \href{https://ieeexplore.ieee.org/document/10101955}{LMs Go Phishing: Adapting Pre-trained Language Models to Detect Phishing Emails}. \textit{IEEE/ACM Web Intelligence Conference}.\\
+
+2022 & \textbf{Kanishka Misra}. \href{https://ojs.aaai.org/index.php/AAAI/article/view/21584}{On Semantic Cognition, Inductive Generalization, and Language Models}. \textit{AAAI 2022 Doctoral Consortium}, Vancouver, Canada.\\
+
+2021 & \textbf{Kanishka Misra}, Allyson Ettinger, Julia Taylor Rayz. \href{https://escholarship.org/uc/item/9n77r9mr#main}{Do Language Models learn typicality judgments from text?} \textit{43rd Annual Conference of the Cognitive Science Society.}\\
+
+2021 & \textbf{Kanishka Misra}, Julia Taylor Rayz. \href{http://kanishka.website/papers/nafips21.pdf}{Finding fuzziness in Neural Network models of Language Processing}. \textit{Annual Meeting of the North American Fuzzy Information Processing Society 2021.} \textcolor{award}{\textbf{Honorable Mention for Best Student Paper}}.\\
+
+2020 & \textbf{Kanishka Misra}, Allyson Ettinger, Julia Taylor Rayz. \href{http://dx.doi.org/10.18653/v1/2020.findings-emnlp.415}{Exploring BERT's Sensitivity to Lexical Cues using Tests from Semantic Priming}. \textit{Findings of the Association for Computational Linguistics: EMNLP 2020}.\\
+
+2020 & Qingyuan Hu, Yi Zhang, \textbf{Kanishka Misra}, Julia Taylor Rayz. \href{https://arxiv.org/abs/2101.07397}{Exploring Lexical Irregularities in Hypothesis-Only Models of Natural Language Inference.}  \textit{2020 IEEE 19th International Conference on Cognitive Informatics \& Cognitive Computing (ICCI* CC)}.\\
+
+2020 & \textbf{Kanishka Misra}, Julia Taylor Rayz. \href{https://kanishka.website/papers/nafips.pdf}{An Approximate Perspective on Word Prediction in Context: Ontological Semantics meets BERT}. \textit{Annual meeting of the North American Fuzzy Information Processing Society 2020}. Online.\\
+
+2019 & \textbf{Kanishka Misra}, Hemanth Devarapalli, Tatiana Ringenberg, Julia Taylor Rayz. \href{https://doi.org/10.1109/SMC.2019.8914323}{Authorship Analysis of Online Predatory Conversations using Character Level Convolution Neural Networks}. \textit{2019 IEEE International Conference on Systems, Man and Cybernetics (SMC)}, Bari, Italy.\\
+
+2019 & Tatiana Ringenberg, \textbf{Kanishka Misra}, Julia Taylor Rayz. \href{https://doi.org/10.1109/SMC.2019.8914528}{Not So Cute but Fuzzy: Estimating Risk of Sexual Predation in Online Conversations}. \textit{2019 IEEE International Conference on Systems, Man and Cybernetics (SMC).}, Bari, Italy. \textbf{(joint first author)}\\
+
+% 2019 & Qiaofei Ye, \textbf{Kanishka Misra}, Hemanth Devarapalli, Julia Taylor Rayz. A Sentiment Based Non-Factoid Question-Answering Framework. \textit{2019 IEEE International Conference on Systems, Man and Cybernetics (SMC).}, Bari, Italy. \link{https://doi.org/10.1109/SMC.2019.8913898}\\
+
+% 2019 & \textbf{Kanishka Misra}, Hemanth Devarapalli, Julia Taylor Rayz. Measuring the Influence of L1 on Learner English Errors in Content Words within Word Embedding Models. \textit{17th International Conference on Cognitive Modelling 2019}., Montréal, Canada. \link{https://kanishka.website/papers/iccm.pdf}\\
+
+2019 & Tatiana Ringenberg, \textbf{Kanishka Misra}, Kathryn C. Seigfried-Spellar, Julia Taylor Rayz. \href{https://doi.org/10.1109/IRC.2019.00110}{Exploring Automatic Identification of Fantasy-Driven and Contact-Driven Sexual Solicitors}. \textit{2019 Third IEEE International Conference on Robotic Computing (IRC).}, Naples, Italy.\\
+
+2019 & Kathryn C. Seigfried-Spellar, Marcus K Rogers, Julia T Rayz, Shih-Feng Yang, \textbf{Kanishka Misra}, Tatiana Ringenberg. \href{https://doi.org/https://doi.org/10.1016/j.forsciint.2019.02.028}{Chat analysis triage tool: Differentiating contact-driven vs.~fantasy-driven child sex offenders.} \textit{Forensic Science International, 2019}.
 \end{longtable}
 
 \section*{Peer-reviewed Abstracts}
 \vspace{-1.5em}
 \begin{longtable}{p{.05\textwidth}  p{.90\textwidth} }
-2020 & \textbf{Kanishka Misra}, Allyson Ettinger, Julia Taylor Rayz. Exploring BERT's lexical relations using Semantic Priming. \textit{CogSci 2020} \poster{https://kanishka.xyz/posters/cogsci20.pdf} \link{https://cogsci.mindmodeling.org/2020/papers/0440/index.html}\\
+2023 & \textbf{Kanishka Misra} and Najoung Kim. \href{https://kanishka.website/papers/bucld48.pdf}{Abstraction via exemplars? A representational case study on lexical category inference in BERT}. \textit{BUCLD 48}\\
+2020 & \textbf{Kanishka Misra}, Allyson Ettinger, Julia Taylor Rayz. \href{https://cogsci.mindmodeling.org/2020/papers/0440/index.html}{Exploring BERT's lexical relations using Semantic Priming}. \textit{CogSci 2020} \poster{https://kanishka.xyz/posters/cogsci20.pdf}\\
 2019 & \textbf{Kanishka Misra}, Hemanth Devarapalli, Julia Taylor Rayz.
-L1 Influence on Content Word errors in Learner English Corpora: Insights from Distributed Representation of Words. \textit{CogSci 2019}, Montréal, Canada. \poster{https://kanishka.xyz/posters/cogsci19.pdf} \link{https://cogsci.mindmodeling.org/2019/papers/0626/index.html}
+\href{https://cogsci.mindmodeling.org/2019/papers/0626/index.html}{L1 Influence on Content Word errors in Learner English Corpora: Insights from Distributed Representation of Words}. \textit{CogSci 2019}, Montréal, Canada. \poster{https://kanishka.xyz/posters/cogsci19.pdf}
 \end{longtable}
 
 
@@ -175,9 +226,46 @@ L1 Influence on Content Word errors in Learner English Corpora: Insights from Di
 %     \textit{Conceptual Minimal Pairs for testing Property Knowledge and its Inheritance in Pre-trained Language Models}\\
 %     Indiana University \\
 % \end{tabular}\\\\
+Fall 2024 & \begin{tabular}[c]{p{.80\textwidth}}
+    \textit{Language Models Learn Rare Phenomena from Less Rare Phenomena: The Case of the Missing AANNs} \\
+    EMNLP 2024, Main conference (November).
+\end{tabular}\\\\
+Fall 2024 & \begin{tabular}[c]{p{.80\textwidth}}
+    \textit{Generalization from Indirect Evidence in Language Models} \\
+    Guest lecture for UChicago course: \textit{Do LLMs Generalize?} (taught by Ari Holtzman)\\
+    Research @ TTIC Series.
+\end{tabular}\\\\
+Summer 2024 & \begin{tabular}[c]{p{.80\textwidth}}
+    \textit{Controlled Rearing of Language Models can reveal Linguistic Insight} (Invited Talk)\\
+    Princeton Psychology of Language Lab (Adele Goldberg's group)
+\end{tabular}\\\\
+Spring 2024 & \begin{tabular}[c]{p{.80\textwidth}}
+    \textit{Controlled Rearing of Language Models can reveal Linguistic Insight}\\
+    SynSem Seminar, UT Austin Linguistics.\\
+    South by Semantics Workshop, UT Austin (Invited Talk)
+\end{tabular}\\\\
+Spring 2024 & \begin{tabular}[c]{p{.80\textwidth}}
+    \textit{Large Language Models and You!} (Guest Lecture)\\
+    Intro to Ling class (taught by Kristie Denlinger, UT Austin)
+\end{tabular}\\\\
+Fall 2023 & \begin{tabular}[c]{p{.80\textwidth}}
+    \textit{Analyzing Robust Conceptual Knowledge and Property Inheritance}\\\textit{in Language Models} (Invited Talk)\\
+    Guest lecture for \textit{Topics in Natural Language Processing} (taught by Eunsol Choi)\\
+    Toyota Technological Institute at Chicago - Research Series.\\
+    C.Psyd Lab (Marten van Schijndel's lab), Cornell University.
+\end{tabular}\\\\
+Fall 2023 & \begin{tabular}[c]{p{.80\textwidth}}
+    \textit{Language model acceptability judgments are not always robust to context}\\
+    UT Austin NLL Reading Group.
+\end{tabular}\\\\
+Spring 2023 & \begin{tabular}[c]{p{.80\textwidth}}
+    \textit{COMPS: Conceptual Minimal Pair Sentences for testing Robust Property Knowledge and its Inheritance in Pre-trained Language Models}\\
+    EACL 2023, Main Conference
+\end{tabular}\\\\
 Spring 2023 & \begin{tabular}[c]{p{.80\textwidth}}
     \textit{On the synthetic semantic cognition of language models} (Invited Talk)\\
-    EvLab and LINGO lab. MIT
+    EvLab and LINGO lab. MIT.\\
+    Toyota Technological Institute at Chicago.
 \end{tabular}\\\\
 Fall 2022 & \begin{tabular}[c]{p{.80\textwidth}}
     \textit{Conceptual Minimal Pairs for testing Robust Property Knowledge and its Inheritance in Pre-trained Language Models} (Invited Talk)\\
@@ -217,8 +305,12 @@ Summer 2021 & \begin{tabular}[c]{p{.80\textwidth}}
 \vspace{-1.5em}
 \renewcommand*{\arraystretch}{1.5}
 \begin{longtable}{p{.05\textwidth}  p{.90\textwidth} }
+2024 & \textbf{Outstanding Paper Award}. \textit{EMNLP 2024}.\\
+2024 & \textbf{Google Cloud Credits}. \textbf{Co-PI along with Najoung Kim.} \textit{Google}. \textbf{Amount:} \$5000.\\
+2023 & \textbf{Paula Menyuk Travel Award}. \textit{BUCLD 48}. \textbf{Amount:} \$385.\\
 2023 & \textbf{Outstanding Paper Award}. \textit{ACL 2023}.\\
-2023 & \textbf{Best Paper Award}. \textit{EACL 2023}.\\
+2023 & \textbf{Best Paper Award}. \textit{EACL 2023}. \textbf{Amount:} \$1000.\\
+2023 & \textbf{Bilsland Fellowship}. \textit{Purdue University}. \textbf{Amount:} \$25{,}000 + Tuition (1 year).\\
 2022 & \textbf{Best Student Poster (runner-up)} \textit{PPI Holistic Safety and Security Research Impact area.} \textbf{Amount:} \$250.\\
 % 2022 & \textbf{Bilsland Fellowship Nomination}. \textit{Purdue Polytechnic Institute}\\
 2022 & \textbf{Fellow}, \textit{Purdue Graduate Student Mentoring Fellows Program}. \textbf{Amount:} \$5{,}000 in research funds.\\
@@ -236,17 +328,16 @@ Summer 2021 & \begin{tabular}[c]{p{.80\textwidth}}
 \renewcommand*{\arraystretch}{1}
 \section*{Teaching}
 \begin{tabularx}{\textwidth}{@{}p{.95\textwidth}l}
-\large \textbf{Teaching Assistant - \textit{Database Fundamentals} (CNIT 272)}\\
-\textbf{Timeline:} Fall 2019, Spring 2020, Fall 2020\\
-\textbf{Course Professor:} Dr. Dawn D. Laux\\
-Developed lecture videos and taught fundamentals of relational databases and \texttt{SQL} to \underline{three} lab sections ($\approx$ 70 students on average across three semesters).\\
-\textbf{Instructor Rating:} 4.8 (on average across three semesters)\\\\
-
 \large \textbf{Guest Lecturer - \textit{Natural Language Technologies} (CNIT 519)}\\
 \textbf{Timeline:} Fall 2019, Fall 2020, Spring 2022\\
 \textbf{Course Professor:} Dr. Julia Taylor Rayz\\
 - Two lectures on Neural Network models of Natural Language Processing\\
-- Developed two assignments on language model interpretability and evaluation.
+- Developed two assignments on language model interpretability and evaluation.\\\\
+\large \textbf{Teaching Assistant - \textit{Database Fundamentals} (CNIT 272)}\\
+\textbf{Timeline:} Fall 2019, Spring 2020, Fall 2020\\
+\textbf{Course Professor:} Dr. Dawn D. Laux\\
+Developed lecture videos and taught fundamentals of relational databases and \texttt{SQL} to \underline{three} lab sections ($\approx$ 70 students on average across three semesters).\\
+\textbf{Instructor Rating:} 4.8 (on average across three semesters)
 \end{tabularx}
 
 % \section*{Industry Experience}
@@ -274,9 +365,16 @@ Developed lecture videos and taught fundamentals of relational databases and \te
 \vspace{-1em}
 \begin{longtable}{p{.09\textwidth}  p{.86\textwidth} }
     % {} & Senior Students\\
-    \textbf{2022} & Sam Huang (UChicago Undergraduate). \textbf{Topic:} \textit{Assessing reasoning behavior in LMs in presence of distraction.}\\
-    \textbf{2020} & Qingyuan ``Carol" Hu and Yi Zhang (Undergraduates). \textbf{Topic:} \textit{Exploring Lexical Irregularities in Hypothesis-only Models of Natural Language Inference.} \textbf{Outcome:} Publication in \textit{IEEE ICCC* CI 2020}, and a presentation at \textit{PURC 2020}, which was \underline{awarded second place} across all students from the Purdue Polytechnic Institute.\\
-    \textbf{2018--19} & John Phan (Undergraduate). \textbf{Topic:} \textit{Gender Bias in Word Embeddings}. Awarded NSF REU scholarship. \textbf{Outcome:} Two poster presentations.
+    \textbf{2024--} & \textbf{Qing Yao} (PhD Student at UT Austin, advised by Dr. Kyle Mahowald). \textbf{Topic(s):} \textit{Learning global psycholinguistic preferences.}\\
+    \textbf{2024--} & \textbf{Lalchand Pandia} (PhD Student at the University of Chicago). \textbf{Topic(s):} \textit{Investigating distributional signals of Category Knowledge in Language Models.}\\
+    \textbf{2023--} & \textbf{William Sheffield} (PhD Student at UT Austin, advised by Dr. Jessy Li). \textbf{Topic(s):} \textit{Discourse-sensitive properties of Language Models}\\
+    \textbf{2023--} & \textbf{Juan Diego Rodriguez} (PhD Student at UT Austin, advised by Dr. Greg Durett and Dr. Katrin Erk). \textbf{Topic(s):} \textit{Conceptual Organization and Inference in Language Models}\\
+    \textbf{2023--} & \textbf{Sriram Padmanabhan} (Undergraduate at UT Austin). \textbf{Topic(s):} \textit{Sampling sensitivity in Language Models}\\
+    \textbf{2023--24} & \textbf{Jwalanthi Ranganathan} (Undergraduate at UT Austin). \textbf{Topic:} \textit{Projecting Contextualized Word Embeddings onto Interpretable Semantic Spaces.}\\
+    \textbf{2023--} & \textbf{Daniel Brubaker} (Undergraduate at UT Austin). \textbf{Topic:} \textit{Exploring pragmatic inference in LMs with Discourse Connectives.}\\
+    % \textbf{2022} & \textbf{Sam Huang} (UChicago Undergraduate). \textbf{Topic:} \textit{Assessing reasoning behavior in LMs in presence of distraction.}\\
+    \textbf{2020} & \textbf{Qingyuan ``Carol" Hu and Yi Zhang} (Undergraduates). \textbf{Topic:} \textit{Exploring Lexical Irregularities in Hypothesis-only Models of Natural Language Inference.} \textbf{Outcome:} Publication in \textit{IEEE ICCC* CI 2020}, and a presentation at \textit{PURC 2020}, which was \underline{awarded second place} across all students from the Purdue Polytechnic Institute.\\
+    \textbf{2018--19} & \textbf{John Phan} (Undergraduate). \textbf{Topic:} \textit{Gender Bias in Word Embeddings}. Awarded NSF REU scholarship. \textbf{Outcome:} Two poster presentations.
     % \textbf{2019} & Addison Farinas (Undergraduate). \textbf{Topic:} \textit{Analysis and Annotation of Humorous News Headlines.} \textbf{Outcome:} Humor dataset curation.\\
     % \textbf{2021} & Sameer Rai Singhal and Priyen Shah (Undergraduates). \textbf{Topic:} \textit{Statistical correlates of World Knowledge in Language Models.}
 \end{longtable}
@@ -285,14 +383,19 @@ Developed lecture videos and taught fundamentals of relational databases and \te
 % \textbf{\underline{Conference and Journals}}
 \vspace{-1em}
 \begin{longtable}{p{.15\textwidth}  p{.80\textwidth} }
-    \textbf{Conference} & ACL (2023); EACL (2023); CogSci (2020, 2021, 2022); CoNLL (2021, 2022); ARR (2021, 2022); *SEM 2022; EMNLP 2020; IJCAI 2020; *SEM 2019; IEEE-IRC 2019.\\
-    \textbf{Journal} & \textit{Cognitive Science} (2023)\\
+    \textbf{Grants} & US National Science Foundation - SBE directorate (2024)\\
+    \textbf{Journal} & \textit{Journal of Memory and Language} (2024) $\times$ 2; \textit{Computational Linguistics} (2024); \textit{PNAS Nexus} (2024); \textit{Cognitive Science} (2023); \textit{Open Mind} (2023)\\
+    \textbf{Conference} & CogSci (2024); EMNLP (2023); CoNLL (2023); ACL (2023); EACL (2023); CogSci (2020, 2021, 2022); CoNLL (2021, 2022); ARR (2021, 2022); *SEM 2022; EMNLP 2020; IJCAI 2020; *SEM 2019; IEEE-IRC 2019.\\
+    \textbf{Workshop} & Blackbox NLP (2023); ICML Workshop on Large Language Models and Cognition (2024)\\
     \textbf{Book} & Chapman \& Hall/CRC Press Statistics Series (2020, 2021).
 \end{longtable}
 
 \section*{Service}
 \begin{itemize}
     % \item \textbf{Mic Guy}, \textit{NLRSE Workshop}. ACL 2023 (on-site).
+    \item \textbf{Co-organizer}, UChicago and TTIC Joint NLP Seminar Series (2024--).
+    \item \textbf{Area Chair/Meta Reviewer}, ACL Rolling Review (ARR) 2024 (Feb, April, June).
+    \item \textbf{Area Chair}, \textit{Linguistic Theory, Cognitive Modeling, and Psycholinguistics}. LREC-COLING 2024.
     \item \textbf{Session Chair}, \textit{Linguistic Theory, Cognitive Modeling, and Psycholinguistics}. ACL 2023 (on-site).
     \item \textbf{Organizer}, \textit{Neural Nets for Cognition}. Discussion group at CogSci 2022.
     \item \textbf{Local Arrangements Chair}, \textit{Annual Meeting of the North American Fuzzy Information Processing Society 2021 (NAFIPS 2021) held at Purdue University.}
@@ -316,7 +419,7 @@ Developed lecture videos and taught fundamentals of relational databases and \te
     \textbf{Programming} & Python, R, pytorch, jax, SQL, \LaTeX\\
     % \textbf{Libraries} & pytorch, tidyverse(R), tidymodels(R), tensorflow, Rcpp, gensim\\
     % \textbf{Statistics} & Probability Theory, GLMs, LMEMs\\
-    \textbf{Natural~Languages} & English, Hindi, Gujarati, Odiya
+    \textbf{Natural~Languages} & English (near-native), Hindi (near-native), Gujarati, Odiya
     \end{longtable}
 % \textbf{\underline{Software Developed}}
 \section*{Software Developed}
@@ -348,15 +451,13 @@ Developed lecture videos and taught fundamentals of relational databases and \te
 \begin{itemize}
     \item Association of Computational Linguistics (ACL)
     \item Cognitive Science Society (CogSci)
-    \item Institute of Electrical and Electronic Engineers (IEEE)
-    \item Center for Education and Research in Information Assurance and Security (CERIAS)
     \item Society for Mathematical Psychology (MathPsych)
 \end{itemize}
 
-\section*{References}
-\textbf{NLP Research:} Dr. Julia Taylor Rayz, Dr. Allyson Ettinger, Dr. Victor Raskin\\
-\textbf{Teaching:} Dr. Dawn Laux\\
-\textbf{Industry:} Dr. Cicero Nogueira dos Santos, Dr. Baoqiang Cao.
+% \section*{References}
+% \textbf{NLP Research:} Dr. Allyson Ettinger, Dr. Kyle Mahowald, Dr. Julia Taylor Rayz, Dr. Junyi Jessy Li\\
+% \textbf{Teaching:} Dr. Dawn Laux\\
+% \textbf{Industry:} Dr. Cicero Nogueira dos Santos, Dr. Baoqiang Cao.
 
 % \section*{Teaching}
 
